@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    line-height: 1.3;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255,255,255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em; 
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-header {
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+
+h1 {
+    font-family: sans-serif;
+}
+h2 {
+    color: green;
+}
+/* * {
+    border: 1px solid green;
+}*/
+
+h1:hover{
+background: green;
+}
+
+p::first-letter{
+    font-size:50px;
+  }
+
+h3 {
+    top: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+}  
+h4{
+    top: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.main-footer {
+    background-color: #035050;
+    color: white;
+    padding: .25em 0;
+    display:-moz-deck;
+    text-align:center;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em;
+    color: rgb(3, 3, 3);
+    border: 2px solid #56ccf2;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: .3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.imagem{
+padding: 100px;
+}
+
+.ftglobo {
+background: green;
+}
+
+.footer{
+height: 4rem;
+background: black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
